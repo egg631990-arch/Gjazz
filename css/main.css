@@ -12,3 +12,52 @@
 body {
   background-color: #556847
 }
+
+@font-face {
+  font-family: 'Fonts-Px';
+  src: url('../fonts/PressStart2P-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Text-Font {
+  font-family: 'Fonts-Px', sans-serif;
+}
+
+#opcity {
+  opacity: 0.3;
+}
+
+.podx {
+  text-decoration: underline;
+}
+
+.border {
+  border: 3px solid white;
+  border-radius: 40px
+}
+
+.yes::after{
+  content: "Да";
+  color: white;
+  margin-left: 15px;
+}
+
+.no {
+  margin-left: 15px;
+}
+
+.no::after {
+  content: "Нет";
+  color: white;
+  margin-left: 15px;
+}
+
+.Text-Fonts {
+  font-family: 'Fonts-Px', sans-serif;
+  color: #a1d979
+}
+
+.podm-te {
+  margin-top: 5px
+}
